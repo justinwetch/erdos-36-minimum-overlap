@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "n": 14336,
+  "shifts_checked": 28671,
+  "mass": "1",
+  "box": "exact",
+  "argmax_lags": [
+    4664
+  ],
+  "score_fraction": "389999179606768536975690608486141/1024000000000000000000000000000000",
+  "score_float": 0.3808585738347349,
+  "decimal_lower": "0.3808585738347348993903228",
+  "decimal_upper_strict": "0.3808585738347348993903229",
+  "scope": "exact continuum supremum of this uniform step function; no global optimality claim"
+}

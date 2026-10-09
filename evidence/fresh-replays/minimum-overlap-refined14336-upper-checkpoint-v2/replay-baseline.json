@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "exact uniform-step continuum supremum via nonnegative polynomial coefficients; no optimization claim",
+  "cells": 14336,
+  "shifts_checked": 28671,
+  "mass": "1",
+  "box": "exact",
+  "score_fraction": "389999179606768536975690608486141/1024000000000000000000000000000000",
+  "decimal_upper_strict": "0.3808585738347348993903229",
+  "argmax_lags": [
+    4664
+  ],
+  "elapsed": 0.12855219841003418,
+  "witness_sha256": "465c7c2346a0b24ecfac63c16406588d7cb584d6d7a943b2e98c01c56c033f24",
+  "checker_sha256": "981ca54f9916f44a71ee550dd8c62de53f9f92dfd3dfbcfcb98bebe3fba9c8bf"
+}

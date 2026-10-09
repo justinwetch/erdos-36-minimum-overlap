@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "scope": "three executed fixed-central-kernel denominator bounds scaled by the exact positive normalization; no global mu bound by itself",
+  "wrapper_sha256": "b45fc38c9a757da7d7133d8a130e196e2fa67ecd27d711049651000c7d5ddbed",
+  "central_sha256": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+  "polynomial_exact": [
+    "9999999999990000000000000000000000000000000000000000000000/9999999928000905503474080294724871394468448518928735691401",
+    "0",
+    "-7198909449652591970527512860553155148107126430859900000000/9999999928000905503474080294724871394468448518928735691401"
+  ],
+  "rows": [
+    {
+      "mode": "arb2",
+      "report": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\central2.json",
+      "original_positive_integral_upper_exact": "2627241057082250793102043150020976656934528791224690377194037952682004339/1000000000000000000000000000000000000000000000000000000000000000000000000",
+      "wrapped_positive_integral_upper_exact": "2627241057082250793102043150020976656934528791224690377194037952682004339/999999992800090550347408029472487139446844851892873569140100000000000000",
+      "verified_mean0_numerator_lower_exact": "250000000000000117572519459796248571235222736787039639940541/250000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "mode": "arb4",
+      "report": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\central4.json",
+      "original_positive_integral_upper_exact": "262724105708225038501196904088912278778377888763669553331665359992560113/100000000000000000000000000000000000000000000000000000000000000000000000",
+      "wrapped_positive_integral_upper_exact": "262724105708225038501196904088912278778377888763669553331665359992560113/99999999280009055034740802947248713944684485189287356914010000000000000",
+      "verified_mean0_numerator_lower_exact": "250000000000000117572519459796248571235222736787039639940541/250000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "mode": "integer",
+      "report": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\integer.json",
+      "original_positive_integral_upper_exact": "64419763276133326203892032354262282789378498796804901857/24519928653854221733733552434404946937899825954937634816",
+      "wrapped_positive_integral_upper_exact": "2235009513439541399683758727901734905305717412860203799941649638327589855180121958255767822265625/850705911177340585797897970073936797726867969575689486580171192221418221878471006251640332222464",
+      "verified_mean0_numerator_lower_exact": "5444517870735017975916726943712435931552552781901859250851339634044278965585143629336128653746056021/5444517870735015415413993718908291383296000000000000000000000000000000000000000000000000000000000000"
+    }
+  ],
+  "maximum_wrapped_denominator_exact": "2627241057082250793102043150020976656934528791224690377194037952682004339/999999992800090550347408029472487139446844851892873569140100000000000000",
+  "bindings": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1\\even-kernel.json": "b45fc38c9a757da7d7133d8a130e196e2fa67ecd27d711049651000c7d5ddbed",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1\\central-frozen.json": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\hybrid_certificate.py": "fa9e5cc74bffdde9c47a39291a6af250a8c69070118a2137b6ed79593986b1b5",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\hybrid_functionals.py": "5b640acfe0cd20c6596493324eb2fc8e766999ca0fca9e3c320d26d7b09a66d3",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_phase_gram.py": "fa396807d14e22e3c386a3b26d94d90dcd60e7b984a6e76f74a439731051910f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\circle_certificate.py": "5da959335238b8de78a50447cd9230e901b87d9079a17c63923cf1c39d81673f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\central2.json": "7eb807e70b4b899b8be0e1c039e9e5a5339f45bde357b22ce1d41aa088fc638a",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\central4.json": "52163275873330dfd8c4ccbb0eaba74294aabf5b9e2484b8543bdb7ce9e5a6d1",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_integer_hybrid.py": "449f720de22db987e7c1868f69acadda603950706bc877cba547df6a8198e93d",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_integer_hypermetric.py": "5d754ad0eed2952299363fe5f1729e6f57ac32acfe6422be47708fa5ce13ec3f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_integer_circle.py": "09c24fe021951bb092e8ddb40a9f23b2fdb4d907e45ec5685b2e216a6211798a",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\integer.json": "11bc163c6e43aa9c3d134869aaf738af9acef168645571642a3a7439ba4aec27",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\adapt_even_central_reports.py": "7879ba23d796ecddb9ef95a2a7c833f2e8c6c6e66ee84819fa5820d3b3e23de2",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\shared_mean_numerator.py": "ecc5cc3e365a15537d6f67d2c273d6e4dc94ba961dc28da0d49f64588e2fbe18",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_shared_mean_return.py": "61632c0d7deb4e967ce2a6b4dff8dbd3d08ebe5052c22e490fbfb0caacd660c0"
+  },
+  "implementation_sha256": "7879ba23d796ecddb9ef95a2a7c833f2e8c6c6e66ee84819fa5820d3b3e23de2"
+}

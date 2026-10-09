@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fixtures": 288,
+  "scope": "exact fractional-cut scores, mass and all shift knots compared with unchanged nonuniform checker across sizes, bit lengths and endpoint/tiny cuts",
+  "checker_sha256": "061a5c97c068d987139cc8431483774e0a4f95f648b4a6930445e12e63da189a",
+  "implementation_hashes": {
+    "exact_fractional_rotation.py": "8a40d8e0e2612b57c79d06d82431ae8ae5c68806c47d06edfa3d85ae6bcd24f0",
+    "exact_packed_correlations.py": "981ca54f9916f44a71ee550dd8c62de53f9f92dfd3dfbcfcb98bebe3fba9c8bf",
+    "nonuniform.py": "01fbea793bef277e83b40b1c62d29dba035878c948305a023dc9a54c1396a85c"
+  }
+}

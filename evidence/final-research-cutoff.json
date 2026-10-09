@@ -1,0 +1,9 @@
+{
+  "enforced_at_utc": "2026-10-09T03:00:10.6675480Z",
+  "snapshot": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\owned-frontiers-20261009T030001Z.json",
+  "bounded_exception": "Only the already frozen H106 global verification may finish by 03:10 UTC; no new discovery or proof inputs. Packet validation and integrity checks may finish afterward.",
+  "cutoff_alaska": "2026-10-08 19:00 AKDT",
+  "promoted_lower_at_cutoff": "0.380627423",
+  "cutoff_utc": "2026-10-09T03:00:00.0000000Z",
+  "status": "RESEARCH_CUTOFF_ENFORCED"
+}

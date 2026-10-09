@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "n": 14337,
+  "distinct_shift_knots_checked": 86017,
+  "independent_event_map": "PASS",
+  "direct_peak_integral": "PASS",
+  "mass": "1",
+  "box": "exact",
+  "score_fraction": "10919977028984812147789295189227209/28672000000000000000000000000000000",
+  "score_float": 0.3808585738345707,
+  "decimal_lower": "0.3808585738345707361812672",
+  "decimal_upper_strict": "0.3808585738345707361812673",
+  "argmax_shift": "-205/448",
+  "scope": "exact continuum supremum of this nonuniform step function"
+}

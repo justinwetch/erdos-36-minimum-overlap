@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "exact_fixture_checks": 11697,
+  "scope": "kernel, primitive, independent periodic mapping, radius and zero-functional controls; analytic premises remain in proof documents",
+  "certificate_sha256": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+  "checker_sha256": "cd36507f88b4045ee4cf37586938fdc80c5e65818791006554be7cf39474ac42",
+  "implementation_hashes": {
+    "hybrid_functionals.py": "5b640acfe0cd20c6596493324eb2fc8e766999ca0fca9e3c320d26d7b09a66d3",
+    "hybrid_certificate.py": "fa9e5cc74bffdde9c47a39291a6af250a8c69070118a2137b6ed79593986b1b5",
+    "circle_certificate.py": "5da959335238b8de78a50447cd9230e901b87d9079a17c63923cf1c39d81673f",
+    "verify_integer_hypermetric.py": "5d754ad0eed2952299363fe5f1729e6f57ac32acfe6422be47708fa5ce13ec3f",
+    "verify_phase_gram.py": "fa396807d14e22e3c386a3b26d94d90dcd60e7b984a6e76f74a439731051910f",
+    "phase_functional_cut.py": "6ab77e7c830be825e712034c11b1f33188ba28ecbd04e9a5e1cb9b596d2af672"
+  },
+  "elapsed": 427.6136164665222
+}

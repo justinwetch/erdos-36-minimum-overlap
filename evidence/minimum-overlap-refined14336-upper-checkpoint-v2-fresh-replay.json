@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "all_replay_commands": [
+    {
+      "command": [
+        "nonuniform.py",
+        "best.json",
+        "--out",
+        "replay-direct.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "exact_fractional_rotation.py",
+        "baseline.json",
+        "discovery.json",
+        "--name",
+        "replay-specialized"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "exact_packed_correlations.py",
+        "baseline.json",
+        "--out",
+        "replay-baseline.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "check_packed_correlations.py",
+        "--out",
+        "replay-packed-controls.json"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "check_exact_fractional_rotation.py",
+        "--out",
+        "replay-fractional-controls.json"
+      ],
+      "returncode": 0
+    }
+  ],
+  "manifest_files": 19,
+  "stage": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-minimum-overlap-refined14336-upper-checkpoint-v2",
+  "score_exact": "10919977028984812147789295189227209/28672000000000000000000000000000000",
+  "gain_exact": "4706887530041848384739/28672000000000000000000000000000000",
+  "elapsed": 135.06433582305908,
+  "direct_checker_sha256": "01fbea793bef277e83b40b1c62d29dba035878c948305a023dc9a54c1396a85c",
+  "replay_direct_sha256": "64f4e1645c2c2e8346ef8975a02f73e03f787b3ddd9aa9e047c25d8534018d14"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "publication": "PUBLISHED_LOCAL",
+  "scope": "ZIP CRC, exact member set and SHA-256 of every distributed member; original proof replay receipts are included",
+  "zip": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\outputs\\minimum-overlap-final-627425.zip",
+  "zip_sha256": "0031f6179312299e4d5934c8ed21dbf710b92f78421fcd0190988baed763432a",
+  "manifest_sha256": "55e341188e36410e4b79fa3e256b88aa81f69ee8e85017e3ebf7461d20568f0f",
+  "manifest_files": 4585,
+  "zip_members": 4586,
+  "prompt": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\outputs\\minimum-overlap-final-627425-continuation-prompt.txt",
+  "prompt_sha256": "dae956458aca8cc6cdf45919779be0ddf53ec67ee041074fcba4b994b7a25e12",
+  "source_validation_sha256": "4f78b39ad75cb0f880d643ed74e2addabaae3021c3506be4811ab0ffc157ebce"
+}

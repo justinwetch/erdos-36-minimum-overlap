@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "original CPython, checksum-pinned PyPy benchmark and actual fresh PyPy central execution agree exactly in every listed mathematical field; not a new global bound or an independent analytic argument",
+  "fields_compared": [
+    "passed",
+    "mean_abs_max",
+    "target",
+    "lower_bound_exact",
+    "numerator_interval",
+    "positive_integral_upper_exact",
+    "mean_square_coefficient_exact",
+    "nodes",
+    "positive",
+    "negative",
+    "ambiguous",
+    "pieces",
+    "width",
+    "functional_premises",
+    "certificate_sha256",
+    "checker_sha256",
+    "implementation_hashes"
+  ],
+  "reports": [
+    {
+      "path": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1-baselines\\integer.json",
+      "sha256": "11bc163c6e43aa9c3d134869aaf738af9acef168645571642a3a7439ba4aec27",
+      "elapsed": 3108.4901823997498
+    },
+    {
+      "path": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid106-pypy-central-benchmark.json",
+      "sha256": "e033e52cd1f5fbc40f2e84992393ddb840880d05f0f52e3eb959b60c9c8ee777",
+      "elapsed": 1668.997719526291
+    },
+    {
+      "path": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\integer.json",
+      "sha256": "d84d1b4513bba19428ad2d2f486b0d5b93109d02d1bf6a4aaa9be453c44daebe",
+      "elapsed": 1649.2518332004547
+    }
+  ]
+}

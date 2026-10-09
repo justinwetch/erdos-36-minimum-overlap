@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "sharp_covariance_fixtures": [
+    "1",
+    "2/3",
+    "1/16384"
+  ],
+  "block_primitive_controls": {
+    "status": "PASS",
+    "exact_polynomial_values": 771,
+    "direct_trigonometric_overlap_values": 771,
+    "nonuniform_fallback_fixtures": 3,
+    "scope": "exact polynomial containment and independent direct-evaluator consistency; recurrence containment follows from addition identities and outward arithmetic"
+  },
+  "exact_flow_fixtures": 160,
+  "outward_sqrt_fixtures": 4,
+  "scope": "exact algebra and covariance sharp examples; the analytic Lipschitz and continuum-return lemmas remain documented proof premises",
+  "implementation_hashes": {
+    "check_even_odd_capacity_controls_v2.py": "ecd0d1793bb6425fb7742e60509aa7214ba26956247737a0ba50dfab5939edf0",
+    "verify_even_odd_capacity.py": "1ea0b14beffa1d51cfdea01dc83ae8cd3c4f393a88ead91692929fd33758ece0",
+    "verify_even_odd_capacity_v2.py": "897f6494f44968408512f5d69ec2563e99dd11407da8829b4c9bfc5877890a1b",
+    "integer_block_primitive.py": "1ec48e07a08ffac2f4895a86f41f96e748eab0bf5dbe6ec159f8721e58668a2c"
+  }
+}

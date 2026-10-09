@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "scope": "executed malformed dual, unaligned covariance mesh and changed kernel rejected; two exact coverage gaps rejected and an overlap accepted",
+  "records": [
+    {
+      "label": "invalid-dual",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "AssertionError",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "verify_even_odd_capacity.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\invalid-dual-bundle.json",
+        "--adapter",
+        "runs/hybrid97-newrow-capacity627424-v1/adapter.json",
+        "--energy",
+        "runs/hybrid97-newrow-capacity627424-v1/energy-arb.json",
+        "--mode",
+        "arb",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\invalid-dual.json"
+      ],
+      "log_sha256": "ad4fc088e280ff2d5a55b0b9acd372ce647a7894c6b71ff022f08e92bef22e15",
+      "output_sha256": null
+    },
+    {
+      "label": "unaligned-mesh",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "capacity cells cross an affine-kernel breakpoint",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "verify_even_odd_capacity.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\unaligned-mesh-bundle.json",
+        "--adapter",
+        "runs/hybrid97-newrow-capacity627424-v1/adapter.json",
+        "--energy",
+        "runs/hybrid97-newrow-capacity627424-v1/energy-arb.json",
+        "--mode",
+        "arb",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\unaligned-mesh.json"
+      ],
+      "log_sha256": "34f89252cd05e1982c7468d3841d56046255bcfa299a2c078f86ddd8d436e6cc",
+      "output_sha256": null
+    },
+    {
+      "label": "wrong-kernel-hash",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "AssertionError",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "verify_even_odd_capacity.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\wrong-kernel-hash-bundle.json",
+        "--adapter",
+        "runs/hybrid97-newrow-capacity627424-v1/adapter.json",
+        "--energy",
+        "runs/hybrid97-newrow-capacity627424-v1/energy-arb.json",
+        "--mode",
+        "arb",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\wrong-kernel-hash.json"
+      ],
+      "log_sha256": "76139e3d98380d39676fd776febc7d3cb53ed9a2109525e5ab5f780ab00864e2",
+      "output_sha256": null
+    },
+    {
+      "label": "gap-between-capacity-cases",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "ValueError: uncovered mean interval",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\gap-between-capacity-cases-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\gap-between-capacity-cases.json"
+      ],
+      "log_sha256": "eb73c12bca14e58da7d34c7225412df817e89041557ccd67a08def23205a0a15",
+      "output_sha256": null
+    },
+    {
+      "label": "gap-after-central",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "ValueError: uncovered mean interval",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\gap-after-central-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\gap-after-central.json"
+      ],
+      "log_sha256": "eb73c12bca14e58da7d34c7225412df817e89041557ccd67a08def23205a0a15",
+      "output_sha256": null
+    },
+    {
+      "label": "overlap-between-capacity-cases",
+      "expected_pass": true,
+      "returncode": 0,
+      "failure_gate": null,
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\overlap-between-capacity-cases-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\overlap-between-capacity-cases.json"
+      ],
+      "log_sha256": "def548573869d002e59432e926eb9629afdb323f12a9880a9734ac9dbee916f0",
+      "output_sha256": "459c3405a647f839136786157784dc11b89068f44b3ef0252501669bde7d7620"
+    },
+    {
+      "label": "enlarged-central-return",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "invalid radius return",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\enlarged-central-return-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\enlarged-central-return.json"
+      ],
+      "log_sha256": "2fbb3d87de89fe4cae1df3b3032a82740ac9ec409db629effc56e9e59f42f977",
+      "output_sha256": null
+    },
+    {
+      "label": "wrong-executed-central-radius",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "central execution target/radius",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\wrong-executed-central-radius-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\wrong-executed-central-radius.json"
+      ],
+      "log_sha256": "39c40677bab3934174ab1daffd2f09cfb2316253057822e8c859ba0454aa6ec3",
+      "output_sha256": null
+    },
+    {
+      "label": "unproved-central-target",
+      "expected_pass": false,
+      "returncode": 1,
+      "failure_gate": "central execution target/radius",
+      "command": [
+        "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "audit_radius_retargeted_capacity_v1.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\unproved-central-target-config.json",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\capacity-controls-hybrid101-radius-capacity627425-v1-global\\unproved-central-target.json"
+      ],
+      "log_sha256": "39c40677bab3934174ab1daffd2f09cfb2316253057822e8c859ba0454aa6ec3",
+      "output_sha256": null
+    }
+  ],
+  "inputs": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1\\audit-config.json": "6866c67cf05ed488879ff98822e0b1892e95b2a8ab17668ebbde96a4c7eff712",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1\\cover-config.json": "c848784524fd979a659c9c538d9de551091ed6e0549c87eb6070609664025c5d",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-dense-capacity627425-probe-v1\\bundle.json": "6a85e1ec43396d552340ca335925cca627455261181dbb7da018df0744f152ae",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1\\adapter.json": "8d943481a9b54242707eee26d6be1db108aaa9f7cb3fc1d7ce2e4d697cd9a7af",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid97-newrow-capacity627424-v1\\energy-arb.json": "d8fdf2a35601fbf89fdb57be4ef5fb4ba52fac779fe4734a42a8a2a785aae0b4"
+  },
+  "implementation_hashes": {
+    "check_radius_retargeted_rejections_v1.py": "fdb3682d43a4d66f6dfcf5f31f7616cc9d7e8d61794725efd2a9c2c7ad4353dc",
+    "audit_radius_retargeted_capacity_v1.py": "8578db67eeacb093496b077a51022edbf5160f55bf7bbb40324a9309d6772306",
+    "verify_even_odd_capacity.py": "1ea0b14beffa1d51cfdea01dc83ae8cd3c4f393a88ead91692929fd33758ece0"
+  },
+  "elapsed": 291.5472078323364
+}

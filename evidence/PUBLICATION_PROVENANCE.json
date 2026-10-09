@@ -1,0 +1,23 @@
+{
+  "status": "COPIED_FROM_VERIFIED_ARTIFACTS",
+  "scope": "byte-identical selected proof inputs and copies of actual fresh execution reports; no new proof executions are claimed",
+  "checkpoints": [
+    {
+      "checkpoint": "minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint",
+      "immutable_files": 115,
+      "original_manifest_sha256": "bb5d222f24198226ee42673f6c5c0d53031d0907211387f90a5b85f2ea1f62b8",
+      "fresh_receipt_sha256": "5dda722d9e8e3def7bd3928abcfaabdb262715a6c7623068b29cc5896045d704",
+      "actual_fresh_report_copies": 19,
+      "fresh_execution_source": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global"
+    },
+    {
+      "checkpoint": "minimum-overlap-refined14336-upper-checkpoint-v2",
+      "immutable_files": 19,
+      "original_manifest_sha256": "a11c2c8cacbf5f1df24b97489fd5caa9a502cc35a87a56705fac7c63252ef599",
+      "fresh_receipt_sha256": "ecbb4ddecb82455bb395a68d9523392aad87fb2f08087b6fb4a091bbd1324373",
+      "actual_fresh_report_copies": 6,
+      "fresh_execution_source": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-minimum-overlap-refined14336-upper-checkpoint-v2"
+    }
+  ],
+  "packet_sha256": "0031f6179312299e4d5934c8ed21dbf710b92f78421fcd0190988baed763432a"
+}

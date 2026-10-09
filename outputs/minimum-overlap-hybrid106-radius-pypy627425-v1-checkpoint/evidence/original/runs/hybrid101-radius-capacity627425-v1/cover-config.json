@@ -1,0 +1,46 @@
+{
+  "schema": "even-odd-capacity-cover-v1",
+  "support_checkers": {
+    "arb": "verify_even_odd_capacity.py",
+    "integer": "verify_even_odd_capacity_v2.py"
+  },
+  "target": ".380627425",
+  "bundle": "runs/hybrid97-dense-capacity627425-probe-v1/bundle.json",
+  "adapter": "runs/hybrid97-newrow-capacity627424-v1/adapter.json",
+  "intervals": [
+    {
+      "dual_index": 1,
+      "lo": "1/25000",
+      "hi": "5064068706768944234974893/36893488147419103232000000000"
+    },
+    {
+      "dual_index": 2,
+      "lo": "5064068706768944234974893/36893488147419103232000000000",
+      "hi": "2922752351609028029607759/18446744073709551616000000000"
+    },
+    {
+      "dual_index": 3,
+      "lo": "2922752351609028029607759/18446744073709551616000000000",
+      "hi": "5805808134858821611157759/18446744073709551616000000000"
+    },
+    {
+      "dual_index": 4,
+      "lo": "5805808134858821611157759/18446744073709551616000000000",
+      "hi": "7759981930057649768977317/9223372036854775808000000000"
+    },
+    {
+      "dual_index": 6,
+      "lo": "7759981930057649768977317/9223372036854775808000000000",
+      "hi": "26498750645487264700908567/9223372036854775808000000000"
+    },
+    {
+      "dual_index": 7,
+      "lo": "26498750645487264700908567/9223372036854775808000000000",
+      "hi": "9/2560"
+    }
+  ],
+  "energy_arb": "runs/hybrid97-newrow-capacity627424-v1/energy-arb.json",
+  "support_arb": "runs/hybrid97-dense-capacity627425-probe-v1/support-arb.json",
+  "energy_integer": "runs/hybrid97-newrow-capacity627424-v1/energy-integer.json",
+  "support_integer": "runs/hybrid97-dense-capacity627425-probe-v1/support-integer.json"
+}

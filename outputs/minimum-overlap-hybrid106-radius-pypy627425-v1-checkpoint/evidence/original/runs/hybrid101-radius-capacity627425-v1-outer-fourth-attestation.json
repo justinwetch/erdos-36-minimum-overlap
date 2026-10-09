@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "command": [
+    "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_fourth_order.py",
+    "certificates\\hybrid79-radius-alternate-continuous-join-outer.json",
+    "--target",
+    ".380627425",
+    "--only-bins",
+    "0-89,114-203",
+    "--cell-width",
+    ".00001",
+    "--json-report",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-fourth.json",
+    "--csv",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-fourth.csv"
+  ],
+  "input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\certificates\\hybrid79-radius-alternate-continuous-join-outer.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "post_run_input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\certificates\\hybrid79-radius-alternate-continuous-join-outer.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "output_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-fourth.json": "b896ee241fd481f7d1beef9d2c63f222dac0e5631b96e029064c6f65bb727d3c",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-fourth.csv": "caf6bda4f587a2e1bbea29b00d0d7ffaa53c965eacb82f74393d7b3982c126a9",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-fourth.log": "27799caa00d3bf85555173a3f3b94a1454f2fc779bcf1bffce69108cd9ab9b44"
+  },
+  "target": ".380627425",
+  "original": false,
+  "elapsed": 15.150618076324463
+}

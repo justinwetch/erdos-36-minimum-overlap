@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 71, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 22, in main
+    k=list(map(F,row['k']));v=list(map(F,row['v']));tau,kappa=F(row['tau']),F(row['kappa']);assert len(k)==n and len(v)==n-1 and all(abs(x)<=1 for x in k)
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

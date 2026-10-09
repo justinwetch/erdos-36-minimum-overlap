@@ -1,0 +1,236 @@
+{
+  "passed": true,
+  "scope": "central interval only; no global mean cover",
+  "implementation": "standard-library rational PSD and dyadic trigonometric arithmetic",
+  "mean_abs_max": "7/100000",
+  "target": "11894607/31250000",
+  "lower_bound_exact": "6277101713244423086234581757684354933511543240409438728069/16491459398690131508196360282691144394080895691982054875392",
+  "lower_bound_float_display": 0.3806274242619786,
+  "numerator_interval": [
+    "6277101713244423086234581757684354933511543240409438728069/6277101735386680763835789423207666416102355444464034512896",
+    "6277101713244423086234581757684354933511543240409438728353/6277101735386680763835789423207666416102355444464034512896"
+  ],
+  "positive_integral_upper_exact": "64419763276133326203892032354262282789378498796804901857/24519928653854221733733552434404946937899825954937634816",
+  "mean_square_coefficient_exact": "-71989094496525919705275128605531551481071264308599/100000000000000000000000000000000000000000000000000",
+  "nodes": 47346,
+  "positive": 11760,
+  "negative": 12873,
+  "ambiguous": 2159,
+  "pieces": 6238,
+  "width": "1/10000000",
+  "elapsed": 3108.4901823997498,
+  "functional_premises": [
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "aa163c06f65c80fe6c9f2696de0952a437d9f3daeeeab6e13782fd3e7f90a481",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-561001237762459040335103617/11250000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 120,
+        "positive_leading_principal_minors": 120,
+        "maximum_minor_bits": 8563,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "93666bc87108217f5e66e74bbc1587870b80bf212b62ca16ea651a8767bd3651",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "205770634406907441129313362538900442231/8850000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 59,
+        "positive_leading_principal_minors": 59,
+        "maximum_minor_bits": 4957,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "77f3b6e1c74bcf37d776cae400eafe13070ad2babf2a8faf659827ed05ebede1",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "8358597118285157636473922975502881276629/5160000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 43,
+        "positive_leading_principal_minors": 43,
+        "maximum_minor_bits": 3603,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "617761b7e3256bbd711775b65cbe8f450dbf87ab1d7e881fb0468bc499509fb4",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-328161066027400624760678694035521655621/1830000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 61,
+        "positive_leading_principal_minors": 61,
+        "maximum_minor_bits": 5263,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "cd6555d4118448a7b4c828a543f9b2c0bcb5a29111ffe44539af1c046d59086b",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-41516206766743141099249917267867134847/2840000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 71,
+        "positive_leading_principal_minors": 71,
+        "maximum_minor_bits": 6001,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "c83fc7c8a5ed401d674deb487fce6c6fab2bfb1e3252e14f3457bf7997e1c53a",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-62767699950964496639808179783552857843/292800000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 61,
+        "positive_leading_principal_minors": 61,
+        "maximum_minor_bits": 5194,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "b41cdbd821dd18c8913e1f3fb4d3fb415cd4dbbc98844eb1d548a0e991b7e4e1",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-30420922381092238447999433490291830519/426000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 71,
+        "positive_leading_principal_minors": 71,
+        "maximum_minor_bits": 5925,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "da43dec00c3cc2990bbefbb246d92fde85e6d446a4bc43283eaadd2a51ecbfb0",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-82798096953397639570548288756330779903/534000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 89,
+        "positive_leading_principal_minors": 89,
+        "maximum_minor_bits": 7425,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "8b3202a35b951d116f7d2b1502119e94902b01f91e057ae736cc806e1ed50988",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "8084313911358302712317925161978787652757/5160000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 43,
+        "positive_leading_principal_minors": 43,
+        "maximum_minor_bits": 3600,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "da37df44de77848237ed224fffe91174f28b16d9428790c6babeb298527a8d7e",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "3212160991802617865766407677111726137407/7320000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 61,
+        "positive_leading_principal_minors": 61,
+        "maximum_minor_bits": 5396,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "0d83a99cec2a65d970edcd66b627d3f51ddc2f145d9f21746202d91cf7a729ac",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "8587965648897899907314889312007643453/426000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 71,
+        "positive_leading_principal_minors": 71,
+        "maximum_minor_bits": 6002,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "4642e791707fe8e61e9ad85b49f136c151ecf189e880b824a7bfcbcbd7e30bff",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-38252088164188594671869675175203/3960000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 33,
+        "positive_leading_principal_minors": 33,
+        "maximum_minor_bits": 2664,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "da0e94e620db9814e4b9abe5ee2c7166e10b6a32ac8a70ab9b034f691544bee8",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-1644260006793381088672086636666098803/47200000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 59,
+        "positive_leading_principal_minors": 59,
+        "maximum_minor_bits": 4760,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "85b392ec54ea7755b5807c9204c952e30f09e41e3831ea2af189bb93dea5380c",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "772168508063796339489508320276464684443/516000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 43,
+        "positive_leading_principal_minors": 43,
+        "maximum_minor_bits": 3465,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "97ac39deaa6fb9e718c923b522676fbc76a761937f69a835eb86714e52e72450",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "119324811064683212813102330374577977/324218750000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 83,
+        "positive_leading_principal_minors": 83,
+        "maximum_minor_bits": 7046,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "5f8e54665adbbce34e5b7ad54bcd3353808f1fe2115557f260a2df267e23ab2a",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "1646773997719565472310934104258247587/46560000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 97,
+        "positive_leading_principal_minors": 97,
+        "maximum_minor_bits": 7864,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    },
+    {
+      "passed": true,
+      "canonical_certificate_sha256": "d0bcd83f0b18cabd95a5d5dc797c4d29a187aa3723722c86fbd9963139953a8c",
+      "mean_abs_max": "7/100000",
+      "functional_lower_exact": "-191983351764886990886669836242457611001/3810000000000000000000000000000000000000",
+      "restricted_psd_check": {
+        "dimension": 127,
+        "positive_leading_principal_minors": 127,
+        "maximum_minor_bits": 16315,
+        "method": "integer Bareiss elimination and Sylvester criterion; no floating eigenvalues"
+      }
+    }
+  ],
+  "certificate_sha256": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+  "checker_sha256": "449f720de22db987e7c1868f69acadda603950706bc877cba547df6a8198e93d",
+  "implementation_hashes": {
+    "hybrid_functionals.py": "5b640acfe0cd20c6596493324eb2fc8e766999ca0fca9e3c320d26d7b09a66d3",
+    "verify_phase_gram.py": "fa396807d14e22e3c386a3b26d94d90dcd60e7b984a6e76f74a439731051910f",
+    "verify_integer_hypermetric.py": "5d754ad0eed2952299363fe5f1729e6f57ac32acfe6422be47708fa5ce13ec3f",
+    "verify_integer_circle.py": "09c24fe021951bb092e8ddb40a9f23b2fdb4d907e45ec5685b2e216a6211798a"
+  }
+}

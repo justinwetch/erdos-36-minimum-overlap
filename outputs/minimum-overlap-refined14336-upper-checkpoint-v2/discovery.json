@@ -1,0 +1,42 @@
+{
+  "status": "DIAGNOSTIC",
+  "scope": "four fractional-cut segments near current integer origin; numerical minimax selects a candidate; no global cut-optimality claim",
+  "cells": 14336,
+  "baseline_float": 0.38085857383473487,
+  "best_float": 0.38085857383457067,
+  "gain_float": 1.6420198534206065e-13,
+  "exact_interpolation_fixtures": 352,
+  "records": [
+    {
+      "integer_cut": -1,
+      "half": 0,
+      "fraction": "1/2",
+      "score_float": 0.3809283282928453,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    },
+    {
+      "integer_cut": -1,
+      "half": 1,
+      "fraction": "19999999929378691/20000000000000000",
+      "score_float": 0.38085857383457067,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    },
+    {
+      "integer_cut": 0,
+      "half": 0,
+      "fraction": "0",
+      "score_float": 0.38085857383473487,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    },
+    {
+      "integer_cut": 0,
+      "half": 1,
+      "fraction": "1/2",
+      "score_float": 0.3809283282980035,
+      "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)"
+    }
+  ],
+  "exact_verification": null,
+  "elapsed": 0.731910228729248,
+  "witness_sha256": "465c7c2346a0b24ecfac63c16406588d7cb584d6d7a943b2e98c01c56c033f24"
+}

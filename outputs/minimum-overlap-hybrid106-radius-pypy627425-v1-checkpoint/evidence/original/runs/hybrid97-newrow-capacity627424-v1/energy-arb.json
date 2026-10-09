@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "full-line derivative-energy upper enclosure of the even normalized central kernel; no mu bound by itself",
+  "mode": "arb",
+  "energy_upper_exact": "128667040624977174421083089525531474908497873242518399530984410626045191/50000000000000000000000000000000000000000000000000000000000000000000",
+  "energy_upper_display": 2573.3408124995435,
+  "positive_half_energy_cells": 11036,
+  "maximum_cell_width": "1/2048",
+  "controls": {
+    "status": "PASS",
+    "exact_polynomial_energy_fixtures": 4,
+    "scope": "Taylor polynomial square integration; analytic fourth-derivative remainder is a reviewed premise"
+  },
+  "seed_sha256": "b45fc38c9a757da7d7133d8a130e196e2fa67ecd27d711049651000c7d5ddbed",
+  "implementation_hashes": {
+    "verify_even_kernel_energy.py": "dcaf9b243972b5f0fc711c56d153389c3f7883f2885b5c4a88a530d7b23938e3",
+    "verify_hybrid_outer_blend.py": "676a195f5997caeac217deb01a2bc7b0da93c43d933e5bd72ddf6e2b07334cd9",
+    "verify_integer_hybrid_outer_blend.py": "e8520c2bcaa07110fc28145bc69b8182a62eef920f44ceded476aa379b82486a",
+    "hybrid_certificate.py": "fa9e5cc74bffdde9c47a39291a6af250a8c69070118a2137b6ed79593986b1b5",
+    "hybrid_functionals.py": "5b640acfe0cd20c6596493324eb2fc8e766999ca0fca9e3c320d26d7b09a66d3",
+    "verify_phase_gram.py": "fa396807d14e22e3c386a3b26d94d90dcd60e7b984a6e76f74a439731051910f",
+    "circle_certificate.py": "5da959335238b8de78a50447cd9230e901b87d9079a17c63923cf1c39d81673f",
+    "verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "verify_integer_hybrid.py": "449f720de22db987e7c1868f69acadda603950706bc877cba547df6a8198e93d",
+    "verify_integer_circle.py": "09c24fe021951bb092e8ddb40a9f23b2fdb4d907e45ec5685b2e216a6211798a",
+    "verify_shared_mean_return.py": "61632c0d7deb4e967ce2a6b4dff8dbd3d08ebe5052c22e490fbfb0caacd660c0",
+    "shared_mean_numerator.py": "ecc5cc3e365a15537d6f67d2c273d6e4dc94ba961dc28da0d49f64588e2fbe18",
+    "sources/lower-bound/certificate/prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "elapsed": 58.1352903842926
+}

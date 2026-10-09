@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 136, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 92, in main
+    need(r['passed'] and F(r['target'])>=base_target and F(r['mean_abs_max'])==executed_mean,'central execution target/radius')
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 12, in need
+    if not ok:raise ValueError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: central execution target/radius

@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_RESEARCH_CUTOFF",
+  "frozen_at_utc": "2026-10-09T02:47:49.911343+00:00",
+  "research_cutoff_utc": "2026-10-09T03:00:00+00:00",
+  "verification_cutoff_utc": "2026-10-09T03:10:00+00:00",
+  "target": ".380627425",
+  "package": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\outputs\\minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint",
+  "manifest_sha256": "bb5d222f24198226ee42673f6c5c0d53031d0907211387f90a5b85f2ea1f62b8",
+  "manifest_files": 115,
+  "original_global_audit_sha256": "a9ab33b1b9c7ca303c4cb76611a19d6e6565c0507d0bc0fc53c0f4b81e54ace7",
+  "original_global_audit_completed_utc": "2026-10-09T01:43:10.896677+00:00",
+  "scope": "stop discovery at 7 PM; bounded completion of this already frozen global candidate and packet verification may finish later; report actual completion times, never count a late receipt as pre-cutoff"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 71, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 13, in main
+    ap=argparse.ArgumentParser();ap.add_argument('bundle',type=Path);ap.add_argument('--adapter',type=Path,required=True);ap.add_argument('--energy',type=Path,required=True);ap.add_argument('--mode',choices=['arb','integer'],required=True);ap.add_argument('--out',type=Path,required=True);a=ap.parse_args();start=time.time();bundle=json.loads(a.bundle.read_text());assert bundle['schema']=='even-odd-capacity-bundle-v1';seed=R/bundle['kernel'];d=json.loads(seed.read_text());assert sha(seed)==bundle['kernel_sha256'] and F(d['theta_outer'])==0 and d['outer']['active']==[]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

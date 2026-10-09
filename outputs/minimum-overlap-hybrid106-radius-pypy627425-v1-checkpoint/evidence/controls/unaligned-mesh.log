@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 71, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\verify_even_odd_capacity.py", line 51, in main
+    assert required<=set(bounds),'capacity cells cross an affine-kernel breakpoint; covariance energy would omit a jump'
+           ^^^^^^^^^^^^^^^^^^^^^
+AssertionError: capacity cells cross an affine-kernel breakpoint; covariance energy would omit a jump

@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "command": [
+    "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_fourth_order.py",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json",
+    "--target",
+    ".380627425",
+    "--only-bins",
+    "0-89,114-203",
+    "--cell-width",
+    ".00001",
+    "--json-report",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.json",
+    "--csv",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.csv"
+  ],
+  "input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "post_run_input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "output_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.json": "03ed255605b813859d8eac3220f80f38e2e2a4289abd206631bac9f0e9201f56",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.csv": "caf6bda4f587a2e1bbea29b00d0d7ffaa53c965eacb82f74393d7b3982c126a9",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.log": "1bad8ac643cedd05dee70065db2da06ef831577ce570ed843eba67e810b0a5a6"
+  },
+  "target": ".380627425",
+  "original": false,
+  "elapsed": 32.79037380218506
+}

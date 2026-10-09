@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "scope": "central and outer cases only; transition-bin checks and exact global audit still required",
+  "name": "replay-baselines",
+  "cover_config_sha256": "9c1e95b124ed8af784a91b6097ee157070e6113c6ef6daa92f6524982eab88bf",
+  "hybrid_sha256": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+  "outer_sha256": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+  "checker_hashes": {
+    "hybrid_certificate.py": "fa9e5cc74bffdde9c47a39291a6af250a8c69070118a2137b6ed79593986b1b5",
+    "verify_integer_hybrid.py": "449f720de22db987e7c1868f69acadda603950706bc877cba547df6a8198e93d",
+    "check_hybrid_mapping.py": "cd36507f88b4045ee4cf37586938fdc80c5e65818791006554be7cf39474ac42",
+    "run_hybrid_outer.py": "24cd97a3995b3a4b09af18465715d1f286af0960d7b1fcc391971ee01f5e4dcd",
+    "verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011"
+  },
+  "records": [
+    {
+      "label": "central2",
+      "command": [
+        "hybrid_certificate.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\central-certificate.json",
+        "--mean-max",
+        ".00007",
+        "--target",
+        ".380627424",
+        "--order",
+        "2",
+        "--report",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\central2.json"
+      ],
+      "returncode": 0,
+      "elapsed": 206.07301783561707,
+      "interpreter": "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "interpreter_sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    },
+    {
+      "label": "central4",
+      "command": [
+        "hybrid_certificate.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\central-certificate.json",
+        "--mean-max",
+        ".00007",
+        "--target",
+        ".380627424",
+        "--order",
+        "4",
+        "--report",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\central4.json"
+      ],
+      "returncode": 0,
+      "elapsed": 130.0107159614563,
+      "interpreter": "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "interpreter_sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    },
+    {
+      "label": "integer",
+      "command": [
+        "verify_integer_hybrid.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\central-certificate.json",
+        "--mean",
+        ".00007",
+        "--target",
+        ".380627424",
+        "--out",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\integer.json"
+      ],
+      "returncode": 0,
+      "elapsed": 1705.8990879058838,
+      "interpreter": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap/work/runtimes/pypy3.11-v8.0.0-win64/pypy3.exe",
+      "interpreter_sha256": "b48bd3a8e129eda21716f55aa12ee8c71f1c79964276a8b5ae1f407a0cec9e2c"
+    },
+    {
+      "label": "mapping",
+      "command": [
+        "check_hybrid_mapping.py",
+        "--certificate",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\central-certificate.json",
+        "--report",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\mapping.json"
+      ],
+      "returncode": 0,
+      "elapsed": 429.2092251777649,
+      "interpreter": "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "interpreter_sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    },
+    {
+      "label": "outer4",
+      "command": [
+        "run_hybrid_outer.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json",
+        "--target",
+        ".380627425",
+        "--name",
+        "replay-baselines-outer-fourth",
+        "--only-bins",
+        "0-89,114-203"
+      ],
+      "returncode": 0,
+      "elapsed": 162.94123482704163,
+      "interpreter": "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "interpreter_sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    },
+    {
+      "label": "outer2",
+      "command": [
+        "run_hybrid_outer.py",
+        "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json",
+        "--target",
+        ".380627425",
+        "--name",
+        "replay-baselines-outer-original",
+        "--original",
+        "--only-bins",
+        "0-89,114-203"
+      ],
+      "returncode": 0,
+      "elapsed": 224.6023190021515,
+      "interpreter": "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "interpreter_sha256": "4d6f5f81a4bca11191c4c7c6b43632694d0a4ce74e068619d8fdc161d469859a"
+    }
+  ],
+  "elapsed": 1705.919597864151
+}

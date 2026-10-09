@@ -1,0 +1,21 @@
+{
+  "baseline-verification.json": "6de8b89a6906c74ad55f110591da42de4b863bece83736a1a6a5bf2e9ff23f75",
+  "baseline.json": "465c7c2346a0b24ecfac63c16406588d7cb584d6d7a943b2e98c01c56c033f24",
+  "best.json": "eb01c427e46228a653e742d94ad2b368484ba4dac7546d1fd59a45e124838272",
+  "check_exact_fractional_rotation.py": "061a5c97c068d987139cc8431483774e0a4f95f648b4a6930445e12e63da189a",
+  "check_packed_correlations.py": "525ae65dbf731436eb07daeb0fbc30449ac4318c7b14224e669483fabcf5a042",
+  "comparison.json": "91eb4a44a450efeeb7f7e6a42660ba405065d9779112b4753e083fc3f25bb47c",
+  "discovery.json": "818a7c61177dc21173aef91145058ca3cff8fb19a9aa88946463a73e231df42e",
+  "exact-fractional-rotation-checks.json": "4590ca2466e518cbc0a5a5d3e7ea468140ee9ea32da94b690e90f87caf123686",
+  "exact_fractional_rotation.py": "8a40d8e0e2612b57c79d06d82431ae8ae5c68806c47d06edfa3d85ae6bcd24f0",
+  "exact_packed_correlations.py": "981ca54f9916f44a71ee550dd8c62de53f9f92dfd3dfbcfcb98bebe3fba9c8bf",
+  "exact_verify.py": "85488dae96b14946a298ce78a64800804e3d7c6157de2e6861abcca15882a003",
+  "FRACTIONAL_ROTATION_PROOF.md": "daca89b603984d1d62a4a72b76f9f15088282f567247d3fe775edd16fa1d5d25",
+  "nonuniform-verification.json": "64f4e1645c2c2e8346ef8975a02f73e03f787b3ddd9aa9e047c25d8534018d14",
+  "nonuniform.py": "01fbea793bef277e83b40b1c62d29dba035878c948305a023dc9a54c1396a85c",
+  "packed-correlations-checks.json": "0c9a61dab472d8bfa77d383f3bfc80d8862d89ca34f978206d7437fea0e50ccd",
+  "PACKED_ARITHMETIC_PROOF.md": "66ac7967ad97f0f195cf90aacbe4987a40a7195e939fd11113edaaef3a3a5e5b",
+  "PROOF.md": "23944510e3256b3f8cbfdfd3a8658cefda658c5f56510b964de31950919929b1",
+  "README.md": "f3c1a397b6a35500499efbc584f304c45d3753d9d94020d651afe58f8ce17664",
+  "specialized-verification.json": "774409e3ffaeff7d1c4910cc16099f2a1518ab2e01612ed781f6d5c3d1986066"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "fixtures": 2251,
+  "scope": "exact coefficient controls across sizes and bit lengths; balanced witnesses compared with unchanged direct checker",
+  "checker_sha256": "525ae65dbf731436eb07daeb0fbc30449ac4318c7b14224e669483fabcf5a042",
+  "implementation_hashes": {
+    "exact_packed_correlations.py": "981ca54f9916f44a71ee550dd8c62de53f9f92dfd3dfbcfcb98bebe3fba9c8bf",
+    "exact_verify.py": "85488dae96b14946a298ce78a64800804e3d7c6157de2e6861abcca15882a003"
+  }
+}

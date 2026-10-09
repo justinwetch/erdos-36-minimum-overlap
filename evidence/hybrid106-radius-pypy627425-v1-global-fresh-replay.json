@@ -1,0 +1,151 @@
+{
+  "status": "PASS",
+  "scope": "fresh complete global proof using six central/outer executions, two energy checks, one adapter and two capacity checks, global audit and three executed control suites",
+  "target": ".380627425",
+  "all_replay_commands": [
+    {
+      "label": "central-outer",
+      "command": [
+        "run_radius_retargeted_baselines_pypy_v1.py",
+        "baseline-cover-config.json",
+        "--name",
+        "replay-baselines"
+      ],
+      "returncode": 0,
+      "elapsed": 1706.0739996433258
+    },
+    {
+      "label": "algebra-controls",
+      "command": [
+        "check_even_odd_capacity_controls_v2.py",
+        "--out",
+        "runs/replay-algebra-controls.json"
+      ],
+      "returncode": 0,
+      "elapsed": 0.73594069480896
+    },
+    {
+      "label": "quartet-controls",
+      "command": [
+        "check_odd_lipschitz_probe.py",
+        "--out",
+        "runs/replay-quartet-controls.json"
+      ],
+      "returncode": 0,
+      "elapsed": 1.5544700622558594
+    },
+    {
+      "label": "energy-arb",
+      "command": [
+        "verify_even_kernel_energy.py",
+        "capacity/even-kernel.json",
+        "--mode",
+        "arb",
+        "--out",
+        "runs/replay-energy-arb.json"
+      ],
+      "returncode": 0,
+      "elapsed": 70.6292085647583
+    },
+    {
+      "label": "energy-integer",
+      "command": [
+        "verify_even_kernel_energy.py",
+        "capacity/even-kernel.json",
+        "--mode",
+        "integer",
+        "--out",
+        "runs/replay-energy-integer.json"
+      ],
+      "returncode": 0,
+      "elapsed": 912.6244261264801
+    },
+    {
+      "label": "denominator-adapter",
+      "command": [
+        "adapt_even_central_reports.py",
+        "capacity/even-kernel.json",
+        "--central",
+        "central-certificate.json",
+        "--arb2",
+        "runs/replay-baselines/central2.json",
+        "--arb4",
+        "runs/replay-baselines/central4.json",
+        "--integer",
+        "runs/replay-baselines/integer.json",
+        "--out",
+        "runs/replay-adapter.json"
+      ],
+      "returncode": 0,
+      "elapsed": 36.017083168029785
+    },
+    {
+      "label": "capacity-arb",
+      "command": [
+        "verify_even_odd_capacity.py",
+        "capacity/bundle.json",
+        "--adapter",
+        "runs/replay-adapter.json",
+        "--energy",
+        "runs/replay-energy-arb.json",
+        "--mode",
+        "arb",
+        "--out",
+        "runs/replay-capacity-arb.json"
+      ],
+      "returncode": 0,
+      "elapsed": 158.32531547546387
+    },
+    {
+      "label": "capacity-integer",
+      "command": [
+        "verify_even_odd_capacity_v2.py",
+        "capacity/bundle.json",
+        "--adapter",
+        "runs/replay-adapter.json",
+        "--energy",
+        "runs/replay-energy-integer.json",
+        "--mode",
+        "integer",
+        "--out",
+        "runs/replay-capacity-integer.json"
+      ],
+      "returncode": 0,
+      "elapsed": 664.8112554550171
+    },
+    {
+      "label": "global-audit",
+      "command": [
+        "audit_radius_retargeted_capacity_v1.py",
+        "replay-config.json",
+        "--out",
+        "replay-global-audit.json"
+      ],
+      "returncode": 0,
+      "elapsed": 57.09037375450134
+    },
+    {
+      "label": "rejection-controls",
+      "command": [
+        "check_radius_retargeted_rejections_v1.py",
+        "replay-config.json",
+        "--name",
+        "fresh",
+        "--out",
+        "runs/replay-rejection-controls.json"
+      ],
+      "returncode": 0,
+      "elapsed": 356.523410320282
+    }
+  ],
+  "certificate_check_invocations": 11,
+  "control_suites": 3,
+  "manifest_files": 115,
+  "manifest_sha256": "bb5d222f24198226ee42673f6c5c0d53031d0907211387f90a5b85f2ea1f62b8",
+  "replay_audit_sha256": "873d52e174bee7470016936f85552530f60e016ba833cf6a116b3c4afb78ad5c",
+  "elapsed": 2821.3248419761658,
+  "stage": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global",
+  "source": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\outputs\\minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint",
+  "total_elapsed": 2822.0601472854614,
+  "in_place_receipt_sha256": "7b49946a6416d53f6c803bfb1e39400ca2b78746e92de2d20fd7f2afd204ddcf"
+}

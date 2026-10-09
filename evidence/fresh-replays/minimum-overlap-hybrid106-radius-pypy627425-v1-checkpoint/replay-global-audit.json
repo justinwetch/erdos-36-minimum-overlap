@@ -1,0 +1,444 @@
+{
+  "status": "PASS",
+  "target": ".380627425",
+  "full_mean_cover": "[-1,1]",
+  "central_mean_abs_max": "1/25000",
+  "central_orders": [
+    2,
+    4
+  ],
+  "outer_bins_each": [
+    180,
+    180
+  ],
+  "outer_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203
+  ],
+  "embedded_functionals": 17,
+  "mean_square_coefficient_exact": "-71989094496525919705275128605531551481071264308599/100000000000000000000000000000000000000000000000000",
+  "scope": "global exact mean cover with a narrower-radius deduction from executed fixed-kernel central enclosures and independently checked physical capacity; all integral checkers unchanged",
+  "retargeted_central_returns": [
+    {
+      "mode": "arb2",
+      "executed_mean_abs_max": "7/100000",
+      "returned_mean_abs_max": "1/25000",
+      "mean0_numerator_lower_exact": "250000000000000117572519459796248571235222736787039639940541/250000000000000000000000000000000000000000000000000000000000",
+      "mean_square_coefficient_exact": "-71989094496525919705275128605531551481071264308599/100000000000000000000000000000000000000000000000000",
+      "positive_integral_upper_exact": "2627241057082250793102043150020976656934528791224690377194037952682004339/1000000000000000000000000000000000000000000000000000000000000000000000000",
+      "numerator_lower_exact": "49999999942408747917283156195029611362619306172550916541229/50000000000000000000000000000000000000000000000000000000000",
+      "lower_bound_exact": "999999998848174958345663123900592227252386123451018330824580000000000000/2627241057082250793102043150020976656934528791224690377194037952682004339"
+    },
+    {
+      "mode": "arb4",
+      "executed_mean_abs_max": "7/100000",
+      "returned_mean_abs_max": "1/25000",
+      "mean0_numerator_lower_exact": "250000000000000117572519459796248571235222736787039639940541/250000000000000000000000000000000000000000000000000000000000",
+      "mean_square_coefficient_exact": "-71989094496525919705275128605531551481071264308599/100000000000000000000000000000000000000000000000000",
+      "positive_integral_upper_exact": "262724105708225038501196904088912278778377888763669553331665359992560113/100000000000000000000000000000000000000000000000000000000000000000000000",
+      "numerator_lower_exact": "49999999942408747917283156195029611362619306172550916541229/50000000000000000000000000000000000000000000000000000000000",
+      "lower_bound_exact": "99999999884817495834566312390059222725238612345101833082458000000000000/262724105708225038501196904088912278778377888763669553331665359992560113"
+    },
+    {
+      "mode": "integer",
+      "executed_mean_abs_max": "7/100000",
+      "returned_mean_abs_max": "1/25000",
+      "mean0_numerator_lower_exact": "5444517870735017975916726943712435931552552781901859250851339634044278965585143629336128653746056021/5444517870735015415413993718908291383296000000000000000000000000000000000000000000000000000000000000",
+      "mean_square_coefficient_exact": "-71989094496525919705275128605531551481071264308599/100000000000000000000000000000000000000000000000000",
+      "positive_integral_upper_exact": "64419763276133326203892032354262282789378498796804901857/24519928653854221733733552434404946937899825954937634816",
+      "numerator_lower_exact": "5444517864463883392166853072509286830092530909368692645109434934879011224788697939737808353941859157/5444517870735015415413993718908291383296000000000000000000000000000000000000000000000000000000000000",
+      "lower_bound_exact": "5444517864463883392166853072509286830092530909368692645109434934879011224788697939737808353941859157/14304060886013064957976055858571103393956591442305304319626557685296575073152780532836914062500000000"
+    }
+  ],
+  "radius_return_controls": {
+    "status": "PASS",
+    "exact_positive_zero_negative_coefficient_cases": 3,
+    "enlarged_radii_rejected": 3
+  },
+  "executed_central_mean_abs_max": "7/100000",
+  "blend_bins_each_side": 6,
+  "blend_summaries": [
+    {
+      "dual_index": 1,
+      "positive_mean_bin": [
+        "1/25000",
+        "5064068706768944234974893/36893488147419103232000000000"
+      ],
+      "reflected_mean_bin": [
+        "-5064068706768944234974893/36893488147419103232000000000",
+        "-1/25000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "1489471749407161620789189649619268195765037302174295141062634923745468078785507173520521805302154043841722331113823005793661063446420289579918971867300570011138916015625/3913201339622454305433463675659740432517949628889681759686842105657889973607257954830913252847201845503864067752838924925125236036273530983720974019366083324085058666496",
+          "lower_bound_display": 0.3806274250000297,
+          "minimizing_mean_exact": "5064068706768944234974893/36893488147419103232000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "116006692279847689347307482742216483166610453579994189283999875451966203102044803562226852994113562177213636856744501276676505135652510432755712/304777545338039228831750765536011636470760182007096799600571750931551156414255429607137417814467213123869254702505858487212183372974395751953125",
+          "lower_bound_display": 0.3806274250000297,
+          "minimizing_mean_exact": "5064068706768944234974893/36893488147419103232000000000"
+        }
+      ]
+    },
+    {
+      "dual_index": 2,
+      "positive_mean_bin": [
+        "5064068706768944234974893/36893488147419103232000000000",
+        "2922752351609028029607759/18446744073709551616000000000"
+      ],
+      "reflected_mean_bin": [
+        "-2922752351609028029607759/18446744073709551616000000000",
+        "-5064068706768944234974893/36893488147419103232000000000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "1861839686758994496699036296398779834717323697473116590059736095373131266169126517102824178292954805685305348633118833556194739349554101437433928367681801319122314453125/4891501674528163925314299777248843165727036750948953496190515113758630105841982301945914087714698610244787292583287259642748900368662599217237735500961994991122748801024",
+          "lower_bound_display": 0.38062742500003094,
+          "minimizing_mean_exact": "2922752351609028029607759/18446744073709551616000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "23201338455970067118775134449222113485725598094745961141003674689584801237313540415244901256246481931419949484014385975049954953183646808276992/60955509067609042613902164023907427391838264801635011942227537284809425676010283193089899146032620217145653466968868303856829265117645263671875",
+          "lower_bound_display": 0.38062742500003094,
+          "minimizing_mean_exact": "2922752351609028029607759/18446744073709551616000000000"
+        }
+      ]
+    },
+    {
+      "dual_index": 3,
+      "positive_mean_bin": [
+        "2922752351609028029607759/18446744073709551616000000000",
+        "5805808134858821611157759/18446744073709551616000000000"
+      ],
+      "reflected_mean_bin": [
+        "-5805808134858821611157759/18446744073709551616000000000",
+        "-2922752351609028029607759/18446744073709551616000000000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "56831839835436998410414487935452901302527936335524990284301172862153598330014704979132292298958831951613963247741300634001572223143300931214039195538134663365781307220458984375/149310943202346364795633765082820957493625784704884780209377225661018454840219701196108943358395392445544435377273505804187516668021891229686566371446491830731169803776162791424",
+          "lower_bound_display": 0.38062742500004454,
+          "minimizing_mean_exact": "5805808134858821611157759/18446744073709551616000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "118035113376917600811023161121494603882950746568732283063101271870949498380439650607533016251925017235064251015818667797007673520918039084905449652224/310106696533766042329061419263019148308920498522762870266439145524082203221300692869921207915142414072339494903502220446103534439644983196258544921875",
+          "lower_bound_display": 0.38062742500004454,
+          "minimizing_mean_exact": "5805808134858821611157759/18446744073709551616000000000"
+        }
+      ]
+    },
+    {
+      "dual_index": 4,
+      "positive_mean_bin": [
+        "5805808134858821611157759/18446744073709551616000000000",
+        "7759981930057649768977317/9223372036854775808000000000"
+      ],
+      "reflected_mean_bin": [
+        "-7759981930057649768977317/9223372036854775808000000000",
+        "-5805808134858821611157759/18446744073709551616000000000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "767016718379288788811957386027405645079387944815827273291886272690710999540369863842690177426055135403415320387773485787069712504754500927671434507004732950008474290370941162109375/2015137817194830037498341525587565522758765864680031673753701215620736661714652673381587426118646609825742084767521105140199812490576088141370543352274795391089864723735261579575296",
+          "lower_bound_display": 0.38062742500014884,
+          "minimizing_mean_exact": "7759981930057649768977317/9223372036854775808000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "3186062797827579010365592375278352306709835600348997941556313839335008907400036609917071406214927350277766689715782965074909961184010481349846251503353856/8370555006188356605983274128985669044350785840650505354697784242456861542770238378037810959511378664517198449019319901845434385628807325300693511962890625",
+          "lower_bound_display": 0.38062742500014884,
+          "minimizing_mean_exact": "7759981930057649768977317/9223372036854775808000000000"
+        }
+      ]
+    },
+    {
+      "dual_index": 6,
+      "positive_mean_bin": [
+        "7759981930057649768977317/9223372036854775808000000000",
+        "26498750645487264700908567/9223372036854775808000000000"
+      ],
+      "reflected_mean_bin": [
+        "-26498750645487264700908567/9223372036854775808000000000",
+        "-7759981930057649768977317/9223372036854775808000000000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "72559781558776172363581756090467467114489186429955710764220279391652507466601432585050735193831138119149481268077350070609049778443719419829087413642554338366608135402202606201171875/190632037506667683573670402940176212848576378170406623405029097552901112073782975961978480514892425150931424382257519845284299923889334230366959716063169713941245172751411161017090048",
+          "lower_bound_display": 0.38062742500057617,
+          "minimizing_mean_exact": "26498750645487264700908567/9223372036854775808000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "15070077033744273519458523455549318091889262926125872139074120007662407896507325071970412743841853311115048530347633109917916446408400576457435104258069364736/39592725179278561920453390089314659395365372330663775411102735704372425823025273912479921025335454209962598224800123768642502022709092178077576160430908203125",
+          "lower_bound_display": 0.38062742500057617,
+          "minimizing_mean_exact": "26498750645487264700908567/9223372036854775808000000000"
+        }
+      ]
+    },
+    {
+      "dual_index": 7,
+      "positive_mean_bin": [
+        "26498750645487264700908567/9223372036854775808000000000",
+        "9/2560"
+      ],
+      "reflected_mean_bin": [
+        "-9/2560",
+        "-26498750645487264700908567/9223372036854775808000000000"
+      ],
+      "returns": [
+        {
+          "mode": "arb",
+          "lower_bound_exact": "2902398248175077262507945829151988961345454380725639459893110767647221302579671181173067168938904455759997438780844809293510063403373776793163496545702173534664325416088104248046875/7625281500267832099185080735906696449055206088621300307927813913459893353723611813903367353556122106854385497285945044086584266100145960305913012896375060761253884775918789749374976",
+          "lower_bound_display": 0.3806283411403412,
+          "minimizing_mean_exact": "26498750645487264700908567/9223372036854775808000000000"
+        },
+        {
+          "mode": "integer",
+          "lower_bound_exact": "6028045322486576270459916738542260307713885656867034701969936535226671201699257926367871283974550073002034242218622900810693841843548637592685253816217501696/15837090071713760795494379566798430647620629811729775197091500544486228147315736974063276692650813370380632057929913591407457849385513130267392635345458984375",
+          "lower_bound_display": 0.3806283411403412,
+          "minimizing_mean_exact": "26498750645487264700908567/9223372036854775808000000000"
+        }
+      ]
+    }
+  ],
+  "reflection_premise": "h_ref(x)=h(2-x) is admissible and has p_ref(t)=p(-t), preserving the peak and reversing the mean",
+  "checker_sha256": "8578db67eeacb093496b077a51022edbf5160f55bf7bbb40324a9309d6772306",
+  "hashes": {
+    "central-certificate.json": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+    "outer-certificate.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "replay-config.json": "e526a8c9f0233154d6be03b393bf480c4d350239f5b0a7389bdc949fb4670551",
+    "runs\\replay-baselines\\mapping.json": "e600e28e62ef7cd73de58ad5819675171386044083b57ad4f9ab2657fa801f9d",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\check_hybrid_mapping.py": "cd36507f88b4045ee4cf37586938fdc80c5e65818791006554be7cf39474ac42",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\hybrid_functionals.py": "5b640acfe0cd20c6596493324eb2fc8e766999ca0fca9e3c320d26d7b09a66d3",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\hybrid_certificate.py": "fa9e5cc74bffdde9c47a39291a6af250a8c69070118a2137b6ed79593986b1b5",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\circle_certificate.py": "5da959335238b8de78a50447cd9230e901b87d9079a17c63923cf1c39d81673f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_integer_hypermetric.py": "5d754ad0eed2952299363fe5f1729e6f57ac32acfe6422be47708fa5ce13ec3f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_phase_gram.py": "fa396807d14e22e3c386a3b26d94d90dcd60e7b984a6e76f74a439731051910f",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\phase_functional_cut.py": "6ab77e7c830be825e712034c11b1f33188ba28ecbd04e9a5e1cb9b596d2af672",
+    "runs\\replay-baselines\\central2.json": "dae7010f021e19ebf5f06f0e8537a393fdd9a20a3bee9f414de561ddd0f2f414",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_fourth_order.py": "13d69b4ce02073ccfa53ac39c6bcfe1c1ca7e037f26d8b445aca5dc09964f011",
+    "runs\\replay-baselines\\central4.json": "0d8b208c048322eab9e74d38c41d7c4ff6a65d1a2869920a83cbc9c960b34aed",
+    "runs\\replay-baselines\\integer.json": "d84d1b4513bba19428ad2d2f486b0d5b93109d02d1bf6a4aaa9be453c44daebe",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_integer_circle.py": "09c24fe021951bb092e8ddb40a9f23b2fdb4d907e45ec5685b2e216a6211798a",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_integer_hybrid.py": "449f720de22db987e7c1868f69acadda603950706bc877cba547df6a8198e93d",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\capacity\\cover-config.json": "fbcdb4a4135fc9314103937a1e57a41728ad883616854f5cd63af06f02974721",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\capacity\\bundle.json": "6c04a4a3dcc920dc177c6eaaec91d532a3f7ce8c98aaabad71c40916b508fbc0",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\capacity\\even-kernel.json": "b45fc38c9a757da7d7133d8a130e196e2fa67ecd27d711049651000c7d5ddbed",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-adapter.json": "dc1c3d762c3b3301a86e1a2b3349a39e71c6565d8ba02454a8798afceb014554",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-energy-arb.json": "aa5a398261110fd13c4677dba77dadf9906b67b549d8a3707095f5aa6ca6bd83",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-capacity-arb.json": "19ca8a8cfb0fa5db9b34a2cf7456696bde37b8fc8181292a5859939c78d9a6ef",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_even_kernel_energy.py": "dcaf9b243972b5f0fc711c56d153389c3f7883f2885b5c4a88a530d7b23938e3",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_hybrid_outer_blend.py": "676a195f5997caeac217deb01a2bc7b0da93c43d933e5bd72ddf6e2b07334cd9",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_integer_hybrid_outer_blend.py": "e8520c2bcaa07110fc28145bc69b8182a62eef920f44ceded476aa379b82486a",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_shared_mean_return.py": "61632c0d7deb4e967ce2a6b4dff8dbd3d08ebe5052c22e490fbfb0caacd660c0",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\shared_mean_numerator.py": "ecc5cc3e365a15537d6f67d2c273d6e4dc94ba961dc28da0d49f64588e2fbe18",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_even_odd_capacity.py": "1ea0b14beffa1d51cfdea01dc83ae8cd3c4f393a88ead91692929fd33758ece0",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\central-certificate.json": "ccc9f53815b1a7c56d49caecfa549427748feb8133c5d591f716210df37967fd",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\central2.json": "dae7010f021e19ebf5f06f0e8537a393fdd9a20a3bee9f414de561ddd0f2f414",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\central4.json": "0d8b208c048322eab9e74d38c41d7c4ff6a65d1a2869920a83cbc9c960b34aed",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines\\integer.json": "d84d1b4513bba19428ad2d2f486b0d5b93109d02d1bf6a4aaa9be453c44daebe",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\adapt_even_central_reports.py": "7879ba23d796ecddb9ef95a2a7c833f2e8c6c6e66ee84819fa5820d3b3e23de2",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-energy-integer.json": "491d00046ef5e02019e4c2f1de8250d41d897ff3c21677a6b1fcddc9e2ffe10c",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-capacity-integer.json": "4247d22a975957a7118919f7c6a669d1565c1787c9f884b9f719107c0e075477",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\verify_even_odd_capacity_v2.py": "897f6494f44968408512f5d69ec2563e99dd11407da8829b4c9bfc5877890a1b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\integer_block_primitive.py": "1ec48e07a08ffac2f4895a86f41f96e748eab0bf5dbe6ec159f8721e58668a2c",
+    "runs\\replay-baselines-outer-fourth-attestation.json": "c584dfa3a023ebcc2214c64763bb61e39bb81c58e122b6e7c10d67bd3e5ad693",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\outer-certificate.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.json": "03ed255605b813859d8eac3220f80f38e2e2a4289abd206631bac9f0e9201f56",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.csv": "caf6bda4f587a2e1bbea29b00d0d7ffaa53c965eacb82f74393d7b3982c126a9",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-fourth.log": "1bad8ac643cedd05dee70065db2da06ef831577ce570ed843eba67e810b0a5a6",
+    "runs\\replay-baselines-outer-original-attestation.json": "393900245cf2fbd3161932d211c704cc3de89d51c681b09d40a9d1282f40841d",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-original.json": "52e34ec1f8947e6bbdbea6fb399c4fde1c013c2be17f8e4411b8c6fd950330eb",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-original.csv": "4fb9a45f86c55a9084194b064413d708190cc8ab925198a0cd5015ca87a10eb2",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\runs\\replay-baselines-outer-original.log": "bd85624253ca2025d9ded9cb5c76f3f31bd0cb621c6cc23726e3f89e85822c5a",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\audit_radius_retargeted_capacity_v1.py": "8578db67eeacb093496b077a51022edbf5160f55bf7bbb40324a9309d6772306",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\replay-hybrid106-radius-pypy627425-v1-global\\retarget_central_mean_radius.py": "5ae14b03eba6fc44d898ba31cf11abb8084240cf8c56fa3d5f96ed81159dfd92"
+  }
+}

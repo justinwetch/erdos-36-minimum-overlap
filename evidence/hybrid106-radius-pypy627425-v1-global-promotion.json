@@ -1,0 +1,14 @@
+{
+  "status": "PROMOTED",
+  "lower": ".380627425",
+  "upper_exact": "10919977028984812147789295189227209/28672000000000000000000000000000000",
+  "scope": "computer-assisted global bounds; open problem remains unresolved; no proof-assistant formalization or priority claim",
+  "fresh_replay_sha256": "5dda722d9e8e3def7bd3928abcfaabdb262715a6c7623068b29cc5896045d704",
+  "fresh_audit_sha256": "873d52e174bee7470016936f85552530f60e016ba833cf6a116b3c4afb78ad5c",
+  "manifest_sha256": "bb5d222f24198226ee42673f6c5c0d53031d0907211387f90a5b85f2ea1f62b8",
+  "certificate_check_invocations": 11,
+  "control_suites": 3,
+  "verified_manifest_files": 115,
+  "root_review": "all fresh execution statuses, targets, cover, controls, dependency hashes and immutable manifest identities checked",
+  "promoted_at_utc": "2026-10-09T03:05:11.051160+00:00"
+}

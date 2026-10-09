@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 136, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 75, in main
+    data=json.loads(central.read_text());mean=F(config['mean_abs_max']);executed_mean=F(config['central_check_mean_abs_max']);base_target=F(config['central_check_target']);need(0<=mean<=executed_mean<=1,'invalid radius return');functions,premises=validate(data,executed_mean);radius_control=radius_controls();retargeted=[]
+                                                                                                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\justi\Documents\Codex\2026-10-07\ins\work\minimum-overlap\audit_radius_retargeted_capacity_v1.py", line 12, in need
+    if not ok:raise ValueError(message)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid radius return

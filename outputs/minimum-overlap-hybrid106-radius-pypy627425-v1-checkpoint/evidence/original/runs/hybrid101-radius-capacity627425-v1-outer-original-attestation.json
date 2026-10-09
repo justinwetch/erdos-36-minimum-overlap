@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "returncode": 0,
+  "command": [
+    "C:\\Users\\justi\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py",
+    "certificates\\hybrid79-radius-alternate-continuous-join-outer.json",
+    "--target",
+    ".380627425",
+    "--only-bins",
+    "0-89,114-203",
+    "--cell-width",
+    ".00001",
+    "--json-report",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-original.json",
+    "--csv",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-original.csv"
+  ],
+  "input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\certificates\\hybrid79-radius-alternate-continuous-join-outer.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "post_run_input_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\certificates\\hybrid79-radius-alternate-continuous-join-outer.json": "c8019383dbcf7eb5892c27be2d918e0095e11cabe9b2f3d5b0e8184a1a16d93b",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\sources\\lower-bound\\certificate\\prove_erdos_0380554275_arb.py": "a825b28f0dd8b8db8f225bcd8af48374c013f2f59de97bdb3d8d8cd62a49f11e"
+  },
+  "output_hashes": {
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-original.json": "665743c9826c83908ac86b6dbda8a4a994fd930a31d000081c5cb76ab147d090",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-original.csv": "4fb9a45f86c55a9084194b064413d708190cc8ab925198a0cd5015ca87a10eb2",
+    "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\runs\\hybrid101-radius-capacity627425-v1-outer-original.log": "aa6f811f6e73ccc3e919ff427c5f6ea2d6778f54d94e6b19ad952b3f5319023a"
+  },
+  "target": ".380627425",
+  "original": true,
+  "elapsed": 26.962495803833008
+}

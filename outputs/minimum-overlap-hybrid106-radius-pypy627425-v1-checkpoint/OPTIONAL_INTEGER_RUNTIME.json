@@ -1,0 +1,10 @@
+{
+  "status": "OFFICIAL_CHECKSUM_VERIFIED",
+  "url": "https://downloads.python.org/pypy/pypy3.11-v8.0.0-win64.zip",
+  "checksum_source": "https://pypy.org/checksums.html",
+  "archive_sha256": "af7383c6c4fbccec8b904fc8f59678764253a0e9d5ad89c1f34b7d7e68afe715",
+  "executable": "C:\\Users\\justi\\Documents\\Codex\\2026-10-07\\ins\\work\\minimum-overlap\\work\\runtimes\\pypy3.11-v8.0.0-win64\\pypy3.exe",
+  "executable_sha256": "b48bd3a8e129eda21716f55aa12ee8c71f1c79964276a8b5ae1f407a0cec9e2c",
+  "version": "Python 3.11.16 (78565394c9b5, Sep 18 2026, 11:39:16)\n[PyPy 8.0.0 with MSC v.1941 64 bit (AMD64)]\n",
+  "scope": "project-local optional runtime only; unchanged mathematical checker source"
+}

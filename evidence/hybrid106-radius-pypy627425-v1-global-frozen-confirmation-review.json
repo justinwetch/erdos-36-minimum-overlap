@@ -1,0 +1,11 @@
+{
+  "status": "REVIEWED_RADIUS_RETURN",
+  "scope": "actual fresh base-radius executions, exact narrower-radius deduction, full cover and nine executed rejection/overlap controls; ordinary immutable-manifest root review still required",
+  "receipt_sha256": "5dda722d9e8e3def7bd3928abcfaabdb262715a6c7623068b29cc5896045d704",
+  "audit_sha256": "873d52e174bee7470016936f85552530f60e016ba833cf6a116b3c4afb78ad5c",
+  "returned_target": ".380627425",
+  "input_freeze_sha256": "e2dfdd0f8d5c9ad78c6ce5b189a5f2320e14df60b5202764e851f0b1e7ff3641",
+  "fresh_receipt_completed_utc": "2026-10-09T03:05:07.198864+00:00",
+  "completed_before_research_cutoff": false,
+  "at_utc": "2026-10-09T03:05:10.673298+00:00"
+}
