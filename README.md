@@ -14,7 +14,6 @@ proof-assistant formalizations or externally peer-reviewed results.
 - [Lower checkpoint](outputs/minimum-overlap-hybrid106-radius-pypy627425-v1-checkpoint/README.md): 115 unchanged files.
 - [Upper checkpoint](outputs/minimum-overlap-refined14336-upper-checkpoint-v2/README.md): 19 unchanged files.
 - [Execution evidence](evidence/): actual replay reports, provenance and hashes.
-- [Submission fields](SUBMISSION.md): ready-to-copy partial-result claim.
 - [Timing](TIMING.md): discovery cutoff and actual verification times.
 
 This repository focuses on the selected proofs and analytic notes.
